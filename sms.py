@@ -318,7 +318,7 @@ scrollBarY.config(command=studentTable.yview)
 scrollBarX.pack(side=BOTTOM,fill=X)
 scrollBarY.pack(side=RIGHT,fill=Y)
 
-studentTable.pack(expand=1,fill=BOTH)
+studentTable.pact(expand=1,fill=BOTH)
 
 studentTable.heading('Id',text='Id')
 studentTable.heading('Name',text='Name')
