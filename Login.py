@@ -22,9 +22,9 @@ window.title('Login System Of Student Management System')
 window.resizable(False, False)
 
 
-loginFrame = Frame(window, bg='white')
-loginFrame.place(x=400, y=150)
-
+loginFrame = Frame(window, bg='white'
+loginFrame.place(x=400, y=150)                   
+                   
 
 
 usernameLabel = Label(loginFrame, text='Username', compound=LEFT
